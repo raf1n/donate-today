@@ -1,10 +1,12 @@
-    body{
-        font-family: 'Poppins', sans-serif;
-        margin: 0px;
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
+
 .top-items{
     text-align: center;
     color: #fff;
+    width: 70%;
 
 }
 .top-btn{
@@ -19,7 +21,7 @@
 
 }
 .top-banner{
-    background-image: url(images/donation9.jpg);
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.351)), url(images/donation9.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,9 +31,28 @@
     display: flex;
 }
 .top-items h1{
-    font-weight: bold;
+    font-weight: 800;
     color: #fff;
-    font-size: 36px;
-    
+    font-size: 36px;  
+}
+.top-items p{
+    font-weight: 300;
+}
+.donate-today-section{
+    text-align: center;
+    padding-top: 100px;
+}
+.donate-today-section p{
+    font-weight: 100;
+    opacity: 0.7;
+}
+.donation-amount h3{
+    background: whitesmoke;
+    padding: 30px 50px;
+    display: inline-block;
+    font-size: 26px;
+    border-radius: 10px;
+    color: #737373;
+    margin: 10px;
 }
 
