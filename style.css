@@ -47,7 +47,7 @@ body{
 }
 .donate-today-section{
     text-align: center;
-    padding-top: 60px;
+    padding: 60px 100px;
 }
 .donate-today-section h2{
     font-weight: 700;
@@ -72,4 +72,31 @@ body{
     background: #FFEEEE;
     border: 2px solid #FF5959;
     border-radius: 5px;
+}
+.donate-today-section input{
+    border: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.donate-plan{
+    text-align: center;
+}
+.donate-plan h1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.donate-plan p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+.panning-cards{
+    display: flex;
+    justify-content: space-between;
 }
