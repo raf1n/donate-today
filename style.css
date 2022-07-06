@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+    padding: 0px;
 }
 
 .top-items{
@@ -96,7 +97,49 @@ body{
     font-size: 18px;
     color: #707070;
 }
-.panning-cards{
+.planning-cards{
     display: flex;
     justify-content: space-between;
+    text-align: left;
+    width: 80%;
+    margin : 80px auto;
+    
+}
+.planning-cards-item{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#food{
+    background: rgba(79, 157, 166, 0.1);
+}
+#shelter{
+    background: rgba(255, 89, 89, 0.1);
+}
+#education{
+    background: #FFF4D6;
+}
+.footer{
+    height: 160px;
+    text-align: center;
+    background: #0B0D17;
+}
+.footer h1{
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;    
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    padding-top: 30px;
+}
+.footer p{
+    font-family: 'Manrope',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
 }
